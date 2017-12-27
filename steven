@@ -19,3 +19,6 @@ pip install django-mptt
 
 django-cms 代码研究（一）djangocms是什么
 https://www.cnblogs.com/Tommy-Yu/p/3949169.html
+
+https://www.cnblogs.com/kekeyu/p/4948555.html
+django NoReverseMatch 错误问题

@@ -16,7 +16,7 @@ Django<1.9
 pytz
 django-reversion>=1.8.7,<1.9
 django-classy-tags>=0.3.4.1
-html5lib
+html5lib==0.99
 django-sekizai>=0.7
 six
 

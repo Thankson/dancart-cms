@@ -1,3 +1,8 @@
+问题卡在 dancart-cms/dancart/urls.py
+url(r'^', include('cms.urls')),             or
+url(r'^', include('apps.catalogue.urls.catalogue')),
+
+
 cp local_settings.dev local_settings.py
 
 # pip install html5lib==0.99

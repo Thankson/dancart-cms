@@ -130,7 +130,7 @@ local_settings.py
 tmtags
 
 # Database
-*.db
+#*.db
 
 #django production
 /static/

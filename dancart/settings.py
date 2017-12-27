@@ -26,6 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Application definition
 
+ALLOWED_HOSTS = ["*"]
 
 ROOT_URLCONF = 'dancart.urls'
 
@@ -117,6 +118,9 @@ INSTALLED_APPS = (
     'django.contrib.sitemaps',
     'django.contrib.staticfiles',
     'django.contrib.messages',
+    'filer',
+    'mptt',
+    'easy_thumbnails',
     'cms',
     'menus',
     'sekizai',
@@ -130,7 +134,7 @@ INSTALLED_APPS = (
     'djangocms_link',
     'djangocms_picture',
     'djangocms_teaser',
-    'djangocms_video',
+    #'djangocms_video',
     'reversion',
     'sorl.thumbnail',
     'adminsortable',
@@ -175,7 +179,7 @@ CMS_PLACEHOLDER_CONF = {}
 
 
 MIGRATION_MODULES = {
-    
+
 }
 
 CMS_STYLE_NAMES = (

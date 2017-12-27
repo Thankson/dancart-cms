@@ -3,17 +3,23 @@ from django.views.generic import DetailView, ListView
 from .models import Product, Category
 from django.db.models import F
 
+# from django.http import HttpResponse
+#
+# def test(reqeust):
+#     print 'hi'
+#     return HttpResponse('hello')
 
 class ProductList(ListView):
     model = Product
     paginate_by = 15
     context_object_name = 'products'
-
+    print context_object_name
     def get_template_names(self):
         if 'category' in self.kwargs:
-            return ['catalogue/product_list.html']
+            #return ['catalogue/product_list.html']
+            return ['catalogue/all_products2.html']
         else:
-            return ['catalogue/all_products.html']
+            return ['catalogue/all_products2.html']
 
     def get_context_data(self, **kwargs):
         context = super(ProductList, self).get_context_data(**kwargs)

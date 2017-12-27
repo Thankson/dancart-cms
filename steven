@@ -1,1 +1,16 @@
-pip install html5lib==0.99
+cp local_settings.dev local_settings.py
+
+# pip install html5lib==0.99
+
+pip install django_select2      dancart-cms/dancart/urls.py
+https://pypi.python.org/pypi/Django-Select2/4.3.1
+
+
+pip install django-filer        djangocms depends on django-filer
+see: https://stackoverflow.com/questions/32269695/error-with-aldryn-bootstrap3-field-defines-a-relation-with-model-which-i
+pip install easy-thumbnails
+pip install django-mptt
+
+
+django-cms 代码研究（一）djangocms是什么
+https://www.cnblogs.com/Tommy-Yu/p/3949169.html

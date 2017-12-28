@@ -18,7 +18,8 @@ urlpatterns = patterns('',
         {'sitemaps': {'cmspages': CMSSitemap}}),
     url(r'^select2/', include('django_select2.urls')),
     url(r'^', include('cms.urls')),
-    url(r'^', include('apps.catalogue.urls.catalogue')), ## this turn to the main page .
+    url(r'^', include('apps.catalogue.urls.catalogue')),
+                       ## this turn to the main page .
 )
 
 # This is only needed when using runserver.

@@ -2,6 +2,8 @@
 url(r'^', include('cms.urls')),             or
 url(r'^', include('apps.catalogue.urls.catalogue')),
 
+django_select2 & cms     usage
+
 
 cp local_settings.dev local_settings.py
 
